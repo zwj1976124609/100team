@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Microsoft YaHei', Verdana, tahoma, Helvetica, Arial;
+	color: #666;
+}
+
+.zyk_contain {
+	margin: 0 auto;
+	padding-top: 15px;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	background: url('https://www.pp100.com/static/public/images/page_bg.jpg')repeat-y center top;
+}
+.zyk_contain a{
+	text-decoration: none;
+}
+.zyk_x_comWidth {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.zyk_menuList {
+	width: 206px;
+	height: auto;
+	background: #FFF;
+	margin-bottom: 10px;
+}
+
+.zyk_fl {
+	float: left;
+}
+
+.zyk_menuListTitle {
+	width: 100%;
+	height: 58px;
+	background: url('https://www.pp100.com/static/public/images/disclosureTopBg.png') no-repeat center top;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	background-size: 100% 100%;
+}
+
+.zyk_menuListTitle h3 {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.zyk_menuListTitle p {
+	line-height: 26px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.zyk_y_gynav {
+	width: auto;
+	list-style: none;
+}
+
+.zyk_y_gynav>li:first-child {
+	border-top: 0;
+}
+
+.zyk_y_gynav li h3 {
+	color: #42c293;
+	font-size: 16px;
+	text-align: center;
+	border-left: 3px solid transparent;
+	display: block;
+	line-height: 60px;
+	height: 60px;
+}
+
+.zyk_y_gynav>li {
+	border-top: 1px solid #f9f9f9;
+}
+.zyk_y_gynav>li>a{
+	font-size: 16px;
+    color: #666;
+    text-align: center;
+    border-left: 3px solid transparent;
+    display: block;
+    line-height: 60px;
+    height: 60px;
+}
+.zyk_y_gynav li a:hover{
+	border-left:3px solid #42C293;
+}
+.zyk_contBox {
+    width: 924px;
+    height: auto;
+    overflow: hidden;
+    background: #FFF;
+    padding: 15px 28px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+.zyk_contBoxTitle {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.zyk_contBoxTitle h2 {
+    font-weight: normal;
+    font-size: 22px;
+    color: #ff5757;
+}
+.zyk_contBoxImg {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.zyk_contBoxImg img {
+    width: 925px;
+    height: 250px;
+}
+.zyk_contBoxCont{
+	width: 100%;
+    height: auto;
+    margin-top: 15px;
+}

@@ -1,0 +1,13 @@
+#zyk_shenji p {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 28px;
+	text-align: center;
+}#zyk_shenji span {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 28px;
+	display: block;
+}

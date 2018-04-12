@@ -1,0 +1,16 @@
+#zyk_kongzhi p {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 28px;
+}
+#zyk_kongzhi span{
+	display:block;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+#zyk_kongzhi .zyk_title_kz{
+	text-align: initial;
+	text-indent: 28px;
+}

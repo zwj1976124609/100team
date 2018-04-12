@@ -1,0 +1,29 @@
+#zyk_beian{
+	padding-bottom: 25px;
+}
+#zyk_beian p {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 28px;
+	text-align: center;
+}
+
+#zyk_beian span {
+	font-size: 14px;
+	color: #000000;
+	line-height: 3;
+}
+
+#zyk_beian a {
+	text-decoration: none;
+	color: #666;
+	cursor: pointer;
+	outline: 0;
+}
+
+#zyk_beian a img {
+	border: 0;
+	vertical-align: middle;
+	display: inline;
+}

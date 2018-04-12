@@ -1,0 +1,70 @@
+.clearfix {
+	overflow: hidden;
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#zyk_tuandui p {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 28px;
+	text-align: justify;
+}
+
+.zyk_nameImg,
+.zyk_nameImg img {
+	width: 168px;
+	height: 220px;
+	border-radius: 5px;
+}
+.zyk_nameBox{
+	padding-bottom: 15px;
+	border-bottom:1px dimgrey dashed;
+}
+.zyk_nameBox .zyk_fl {
+	float: left;
+}
+
+.zyk_nameBox .zyk_fr {
+	float: right;
+}
+
+.zyk_nameImg img {
+	border: 0;
+	vertical-align: middle;
+	display: inline;
+}
+
+.zyk_nameWord {
+	width: 680px;
+	margin-top: 30px;
+}
+
+.zyk_nameWordTit {
+	height: 50px;
+}
+
+.zyk_nameWordTit h2 {
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+	float: left;
+	color: #E56600;
+	line-height: 2;
+}
+
+.zyk_nameWordTit h2 span {
+	margin-top: 5px;
+}
+
+.zyk_nameWordTit span {
+	float: left;
+	margin-top: 12px;
+	color: #E56600;
+	line-height: 2;
+}
+ .zyk_line{
+	border-bottom: none;
+}

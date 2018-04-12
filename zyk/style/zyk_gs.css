@@ -1,0 +1,28 @@
+#zyk_gs p{
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 28px;
+    text-align: justify;
+}
+.zyk_xinxi{
+	font-size: 18px;
+    line-height: 2;
+    color: #FF9900;
+}
+.paizhao img{
+	border: 0;
+    vertical-align: middle;
+    display: inline;
+    padding-left: 120px;
+}
+.zyk_gudong{
+	    color: #FF9900;
+    line-height: 2;
+    font-size: 16px;
+}
+#zyk_gs .zyk_botton_xinxi{
+	text-align: center;
+	font-size: 16px;
+	padding: 10px 0;
+}
