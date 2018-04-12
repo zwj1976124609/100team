@@ -1,0 +1,632 @@
+@charset "utf-8";
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+li{list-style:none}
+b,strong,h1,h2,h3,h4,h5,h6{font-weight:normal}
+i,em{font-style: normal}
+a{text-decoration:none;color:#000}
+img{border:0; display:block}
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.index{
+    background:#fff;
+    overflow: hidden
+}
+.scy-background{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: #000;
+    opacity: .5;
+    display: none;
+}
+.scy-wrapper{
+    width:1390px;
+    margin:0 auto;
+    overflow: hidden
+}
+.scy-lunbo{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+}
+.scy-notice{
+    width:100%;
+    margin:0 auto;
+    font-size: 12px;
+    border-bottom: 1px solid #23425f;
+}
+.scy-notice i{
+    float: left;
+    width:100px;
+    height:22px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background:url('https://www.pp100.com/static/public/icons/index_z.png');
+}
+.scy-f1-left{
+    float: left;
+    color:#96a6c0;
+    line-height:22px;
+    height:22px;
+    margin: 15px 0;
+}
+.scy-f1-left a,.scy-f1-right a{
+    display:block;
+    color:#96a6c0;
+    line-height:22px;
+}
+.scy-f1-right{
+    float: right;
+    color:#96a6c0;
+    line-height:22px;
+    height:22px;
+    margin: 15px 100px 15px 0;
+}
+.scy-databox{
+    margin: 60px auto 120px;
+    width:100%;
+}
+.scy-data{
+    float: left;
+    background: url(https://www.pp100.com/static/public/images/index/data1.png) center 0 no-repeat;
+    width: 255px;
+    height:150px;
+    margin:0 120px 0 90px;
+}
+.scy-data2{
+    float: left;
+    background: url(https://www.pp100.com/static/public/images/index/data2.png) center 0 no-repeat;
+    width: 255px;
+    height:150px;
+}
+.scy-data3{
+    float: left;
+    background: url(https://www.pp100.com/static/public/images/index/data3.png) center 0 no-repeat;
+    width: 255px;
+    height:150px;
+    margin:0 90px 0 90px;
+}
+.scy-data p:nth-of-type(1){
+    padding-top: 160px;
+    margin-left: 15px;
+    text-align: center;
+}
+.scy-data i{
+    font-size: 36px;
+    color:#21435f;
+}
+.scy-data em{
+    font-size: 14px;
+    color: #0bb782;
+}
+.scy-data p:nth-of-type(2){
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+    color:#2c3f50;
+    margin-top: 10px;
+}
+.scy-safe{
+    height:300px;
+    margin:250px auto 0px;
+}
+.scy-safe ul{
+    padding:0 100px
+}
+.scy-safe ul li:nth-of-type(1),.scy-safe ul li:nth-of-type(2),.scy-safe ul li:nth-of-type(3){
+    float: left;
+    margin:0 140px 0 10px;
+}
+.scy-safe ul li:nth-of-type(4){
+    float: left;
+}
+.scy-safe ul h3{
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 10px;
+    padding-left: 52px;
+    font-size: 18px;
+    background: url(https://www.pp100.com/static/public/images/index/safe1.png) 0 center no-repeat;
+}
+.scy-safe ul p{
+    width: 170px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #6c788a;
+    letter-spacing: 1px;
+}
+.scy-new{
+    background:#fafbff;
+    padding-top:150px;
+    text-align:center;
+    position:relative;
+    margin-bottom:30px;
+}
+.scy-new h1{
+    color:#1f3d57;
+}
+.scy-new i{
+    color:#65687b;
+    font-size:14px;
+    line-height:50px;
+}
+.scy-new>p{
+    color:#1d405e;
+    font-size:13px;
+    line-height:30px;
+    margin-bottom:100px;
+}
+.scy-pr{
+    margin:0 auto;
+    width:100%;
+    position:relative
+}
+.scy-new .scy-new1{
+    float: left;
+    margin:0 60px 150px 300px;
+    width:330px;
+    background:#fff;
+    box-shadow: 10px 10px 20px 5px #e7f5ff
+}
+.scy-new .scy-new1 h2{
+    color:#1c415c;
+    font-size:20px;
+    background: url(https://www.pp100.com/static/public/images/index/new1_tit.png) 0 0 no-repeat;
+    padding-top: 290px;
+}
+.scy-new .scy-new1 ul{
+    padding:0 15px 15px;
+    position:relative;
+}
+.scy-new .scy-new1 li{
+    float: left;
+}
+.scy-new .scy-new1 li:nth-of-type(2),.scy-new .scy-new1 li:nth-of-type(3){
+    padding:26px 0 0 15px;
+}
+.scy-new .scy-new1 strong{
+    display:block;
+    font-size: 46px;
+    font-weight: normal;
+    color: #fc5320;
+}
+.scy-new .scy-new1 strong em{
+    font-size:14px;
+}
+.scy-new .scy-new1 li:nth-of-type(1) i{
+    padding-left:20px;
+    background: url(https://www.pp100.com/static/public/images/index/icon1.png) 0 center no-repeat;
+}
+.scy-new .scy-new1 li:nth-of-type(2) i{
+    padding-left:20px;
+    background: url(https://www.pp100.com/static/public/images/index/icon2.png) 0 center no-repeat;
+}
+.scy-new .scy-new1 li:nth-of-type(2) p{
+    margin-bottom:13px;
+}
+.scy-new .scy-new1 li:nth-of-type(3) i{
+    padding-left:20px;
+    background: url(https://www.pp100.com/static/public/images/index/icon3.png) 0 center no-repeat;
+}
+.scy-new .scy-new1 li:nth-of-type(3) p{
+    margin-bottom:13px;
+}
+.scy-new .scy-new1 span:hover img{
+    display:block
+}
+.scy-new .scy-new1 span{
+    position:relative;
+}
+.scy-new .scy-new1 span img{
+    display: none;
+    position: absolute;
+    top:30px;
+    left:-90px;
+    z-index: 9
+}
+.scy-new .scy-new1 a{
+    display: block;
+    width: 208px;
+    height: 54px;
+    margin: 0 auto;
+    background: url(https://www.pp100.com/static/public/images/index/down_app.png) 0 center no-repeat;
+    margin-bottom:30px;
+}
+.scy-new .scy-new2{
+    float: left;
+    margin-left: 60px;
+}
+.scy-new .scy-new2 h2{
+    color:#1c415c;
+    font-size:20px;
+    background: url(https://www.pp100.com/static/public/images/index/new2_tit.png) 0 0 no-repeat;
+    padding-top: 290px;
+}
+.scy-new .scy-one{
+    margin:0 40px 150px 100px;
+}
+.scy-new .scy-two,.scy-new .scy-three{
+    float: left;
+    margin:0 30px 150px 40px;
+}
+.scy-new .scy-one h2:nth-of-type(1){
+    padding-top:230px;
+  background: url(https://www.pp100.com/static/public/images/index/invest1_tit.png) 0 center no-repeat;
+}
+.scy-new .scy-one div{
+   position:absolute;
+    font-size:21px;
+    line-height:72px;
+    color:#2a4562;
+    float: left;
+}
+.scy-new .scy-one ul{
+    width:300px;
+}
+.scy-new .scy-one li{
+    margin-top:140px;
+}
+.scy-new .scy-one p{
+    color:#657d89;
+    line-height:25px;
+    font-size:14px;
+    position:absolute;
+    top:60px;
+    text-align:left
+}
+.scy-new .scy-one .span{
+    display:block;
+    font-size:18px;
+    color:#1d405e;
+    line-height:30px;
+    margin:24px 0 5px 5px;
+}
+.scy-new .scy-one li:nth-of-type(1){
+    padding:25px 0 5px 10px;
+    width:150px;
+}
+.scy-new .scy-one li:nth-of-type(2){
+    padding:25px 0 5px 40px;
+}
+.scy-new .scy-one li:nth-of-type(3){
+    margin:0px;
+    padding:0px 0px 0px 15px;
+    color:#616679;
+    font-size:12px;
+    width:160px;
+}
+.scy-new .scy-one li:nth-of-type(4){
+    margin:7px 0 0 15px;
+    padding:0px 0px 0px 15px;
+    color:#616679;
+    font-size:12px;
+}
+.scy-new .scy-two h2:nth-of-type(1){
+    padding-top:230px;
+  background: url(https://www.pp100.com/static/public/images/index/invest2_tit.png) 0 center no-repeat;
+}
+.scy-new .scy-three h2:nth-of-type(1){
+    padding-top:230px;
+  background: url(https://www.pp100.com/static/public/images/index/invest3_tit.png) 0 center no-repeat;
+}
+.scy-new .scy-three li:nth-of-type(4){
+    padding:0px 0px 0px 20px;
+}
+.scy-new .scy-two li:nth-of-type(3){
+    width:280px;
+}
+.scy-new .a,.scy-new .aa{
+    display: block;
+    width: 208px;
+    height: 54px;
+    margin: 0 auto;
+    background: url(https://www.pp100.com/static/public/images/index/down_app.png) 0 center no-repeat;
+    margin-bottom:130px;
+    position:absolute;
+    top:650px;
+    left:575px;
+}
+.scy-new img{
+    margin-left:100px;
+}
+.scy-new .aa{
+    top:1070px;
+}
+.scy-gr{
+    margin-top:300px;
+}
+.scy-gr h2{
+    margin:0 0 50px 90px;
+}
+.scy-gr h2 span{
+    padding:0 150px;
+    color:#23435c;
+    font-size:18px;
+}
+.scy-report{
+    background:#fff;
+    width:1200px;
+    margin:0 auto;
+    padding:20px 40px;
+    position:relative;
+}
+.scy-report li{
+    float: left;
+    margin-right: 50px;
+}
+.scy-report a{
+    color: #23425f;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.scy-report a span{
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.scy-report a em{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-style: normal;
+}
+.scy-report a:hover{
+    color:#00b384;
+    cursor: pointer;
+}
+.scy-report .word{
+    background:rgba(0,0,0,0.3);
+    position:absolute;
+    top:210px;
+    z-index:9;
+    width:340px;
+}
+.scy-report .word p{
+    width: 100%;
+    line-height: 35px!important;
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align:center;
+}
+.scy-report .word p a{
+    color:#fff;
+}
+.scy-report .word p a:hover{
+    color:#00b384;
+    cursor: pointer;
+}
+.scy-parter h1{
+    margin-bottom:50px;
+}
+.scy-parter li{
+    float: left;
+    margin-bottom:30px;
+}
+.scy-parter{
+     margin-bottom:30px;
+}
+.scy-app{
+    display: none;
+    z-index: 1002;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 476px;
+    height: 605px;
+    margin: -325px 0 0 -238px;
+    background: url(https://www.pp100.com/static/public/images/index/down_pop.png) center 0 no-repeat;
+}
+.scy-app a{
+    position: absolute;
+    right:-15px;
+    top:25px;
+    background:#fff;
+    display: block;
+    width:35px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    border-radius: 50%;
+    font-size:22px;
+    color:#00bc8d;
+}
+
+
+
+
+
+
+// hdzq页面
+.hdzq{
+    width:100%;
+}
+.scy-middle{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden
+}
+.scy-activealltit{
+    width: 1200px;
+    height: 40px;
+    border-bottom: 2px solid #0bb782;
+    margin: 20px auto 0;
+}
+.scy-activealltit h2{
+    font-size: 24px;
+    color: #0bb782;
+    font-weight: normal;
+    background: url(https://www.pp100.com/public/images/xnew/activeAllTitIcon.png) no-repeat left center;
+    padding-left: 70px;
+}
+.scy-activeall{
+    width: 1200px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    background: url(https://www.pp100.com/public/images/xnew/listbg.jpg) repeat left top;
+}
+.scy-activebox{
+    width: 1180px;
+    height: 340px;
+    border: 1px solid #dbdbdb;
+    margin: 15px auto;
+    background: #fff;
+}
+.scy-activebox .scy-imgbox{
+    width: 805px;
+    height: 288px;
+    padding: 0 20px 0 15px;
+    border-right: 1px solid #dbdbdb;
+    margin-top: 25px;
+    float: left;
+}
+.scy-activebox .scy-imgbox img{
+    width:800px;
+    height:280px;
+    border: 0;
+    vertical-align: middle;
+    display: inline;
+}
+.scy-activebox .scy-infobox{
+    width: 330px;
+    height: auto;
+    float: right;
+    margin-top: 25px;
+    padding-top: 60px;
+    margin-right: 5px;
+    position:relative;
+}
+.scy-activebox .scy-infobox h2{
+    font-size: 18px;
+    font-weight: normal;
+    color: #0bb782;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+.scy-activebox .scy-infobox p{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    float: left;
+    margin-left: 32px;
+    font-size: 14px;
+    color: #555;
+}
+.scy-activebox .scy-infobox p img{
+    border: 0;
+    vertical-align: middle;
+    display: inline;
+    margin-right:5px;
+}
+.scy-activebox .scy-infobox a{
+    margin: 85px auto 0;
+    overflow: hidden;
+    width: 208px;
+    height: 42px;
+    display: block;
+    background: #0bb782;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border: 1px solid #0bb782;
+}
+.scy-activebox .scy-infobox .endimg{
+    display: block;
+    top: 100px;
+    right: 60px;
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 100px;
+}
+.scy-activebox .scy-infobox .endimg img{
+    float: left;
+    margin: 0 0 0 30px;
+}
+.scy-noactive .scy-activebox .scy-infobox p,.scy-noactive .scy-activebox .scy-infobox a{
+    background: #fff;
+    color: #dbdbdb;
+}
+.scy-noactive .scy-activebox .scy-infobox a{
+        border: 1px solid #dbdbdb;
+}
+
+
+
+//lunbo
+#st_register{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+#st_register .st_ul{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+#st_register .st_ul li{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    opacity: 0;
+    transition: 0.5s;
+}
+#st_register .st_ul li:nth-of-type(1){
+    background: url('https://static.pp100.com/images?uuid=94752e0f-d877-4191-bb70-51557c647838') no-repeat center top;
+}
+#st_register .st_ul li:nth-of-type(2){
+    background: url('https://static.pp100.com/images?uuid=09524a71-b110-462a-ae6a-f9b138fdadf7') no-repeat center top;
+}
+#st_register .st_ul li:nth-of-type(3){
+    background: url('https://static.pp100.com/images?uuid=09c320be-035f-4640-bb0a-d35518f24396') no-repeat center top;
+}
+#st_register .st_ul li:nth-of-type(4){
+    background: url('https://static.pp100.com/images?uuid=b5ec140c-dd2a-4979-905e-3b72268128c7') no-repeat center top;
+}
+#st_register .st_ul li:nth-of-type(5){
+    background: url('https://static.pp100.com/images?uuid=5db5d1e6-0f78-47b5-bb7f-4443ff99c1f2') no-repeat center top;
+}
+#st_register .st_ul li:nth-of-type(6){
+    background: url('https://static.pp100.com/images?uuid=2cbf2215-6995-4b0f-8e91-7075cb68d391') no-repeat center top;
+}
+#st_register .st_ul li:nth-of-type(7){
+    background: url('https://static.pp100.com/images?uuid=b0ecabce-d236-4a6d-8ae5-f3a025ca173f') no-repeat center top;
+}
+
+#st_register .st_ol{
+    position: absolute;
+    top: 380px;
+    overflow: hidden;
+    left: 40%;
+}
+#st_register .st_ol li{
+    width: 24px;
+    height: 5px;
+    background: white;
+    margin-right: 11px;
+    float: left;
+    cursor: pointer;
+}
