@@ -1,0 +1,290 @@
+
+#forget{
+	width: 100%;
+	height: 100vh;
+	background: #f3f3f3;
+	position: relative;
+}
+#st_forget{
+	width: 690px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    
+}
+#st_forget_tit{
+	padding-bottom:30px;
+	border-bottom: 3px solid #0bb782;
+}
+#st_forget_tit img:nth-of-type(1){
+	width: 204px;
+    height: 97px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#st_forget_tit img:nth-of-type(2){
+	width: 255px;
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+}
+#st_forget_tap{
+	width: 362px;
+    height: 44px;
+    margin: 20px auto 0;
+}
+#st_forget_tap button{
+	width: 152px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    color: #0bb782;
+    background: #FFF;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+#st_forget_tap button:hover{
+	border: 1px solid #0bb782;
+}
+#st_forget_tap .forget_tap_pho{
+	border: 1px solid #0bb782;
+    background: #0bb782;
+    color: #FFF;
+    margin-right: 58px;
+}
+#st_forget_find{
+	width: 362px;
+    height: auto;
+    margin: 60px auto 0;
+    margin-top: 35px;
+}
+#st_forget_find h3{
+	width: 362px;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#st_forget_find h3 input{
+	 width: 340px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #666;
+    outline: none;
+}
+   #st_forget_find h3 .forget_btn_find{
+   	    background: #0bb782;
+    border: 1px solid #35bcac;
+    color: #FFF;
+    width: 360px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+   }
+#st_forget_find h3 .forget_btn_find:hover{
+	background: #35BCAC;
+}
+
+#st_forget_find .forget_find_zy{
+	overflow: hidden;
+}
+#st_forget_find .forget_find_zy input{
+	width: 160px;
+	float: left;
+}
+#st_forget_find .forget_find_zy span{
+	width: 124px;
+    height: 42px;
+    border: 1px solid #e8e8e8;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0% 0%, 70% 100%, from(#aaa), to(#fff)); 
+    border: 1px solid black; 
+    font-style: normal;
+    cursor: pointer; 
+    color:#0085FF; 
+    font-size: 24px;
+    font-weight:normal ;
+    line-height: 42px;
+    text-align: center;
+}
+
+#st_forget_find .forget_find_sjzy{
+	overflow: hidden;
+}
+#st_forget_find .forget_find_sjzy input{
+	width: 160px;
+	float: left;
+}
+#st_forget_find .forget_find_sjzy em{
+	width: 126px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFF;
+    background: #64bd49;
+    margin-left: 8px;
+    display: block;
+    float: left;
+    border-radius: 4px;
+    font-weight:normal ;
+    font-style: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+#st_forget_find .forget_find_sjzy em:hover{
+	background: #7bcf61;
+}
+
+
+#st_forget_emi{
+	width: 362px;
+    height: auto;
+    margin: 60px auto 0;
+    margin-top: 35px;
+    display: none;
+}
+#st_forget_emi h3{
+	width: 362px;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#st_forget_emi h3 input{
+	 width: 340px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #666;
+    outline: none;
+}
+   #st_forget_emi h3 .forget_btn_emi{
+   	    background: #0bb782;
+    border: 1px solid #35bcac;
+    color: #FFF;
+    width: 360px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+   }
+#st_forget_emi h3 .forget_btn_emi:hover{
+	background: #35BCAC;
+}
+
+#st_forget_emi .forget_emi_zy{
+	overflow: hidden;
+}
+#st_forget_emi .forget_emi_zy input{
+	width: 160px;
+	float: left;
+}
+#st_forget_emi .forget_emi_zy span{
+	width: 124px;
+    height: 42px;
+    border: 1px solid #e8e8e8;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0% 0%, 70% 100%, from(#aaa), to(#fff)); 
+    border: 1px solid black; 
+    font-style: normal;
+    cursor: pointer; 
+    color:#0085FF; 
+    font-size: 24px;
+    font-weight:normal ;
+    line-height: 42px;
+    text-align: center;
+}
+
+#st_forget_tt{
+	height: 40px;
+	width: 250px;
+	background: black;
+	opacity: 0.5;
+	color: white;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	position: fixed;
+	top: 45%;
+	left: 45%;
+	z-index: 999;
+	display: none;
+}
+
+
+
+#st_forget_res{
+	width: 362px;
+    height: auto;
+    margin: 60px auto 0;
+    margin-top: 35px;
+    display: none;
+}
+#st_forget_res h3{
+	width: 362px;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#st_forget_res h3 input{
+	 width: 340px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #666;
+    outline: none;
+}
+   #st_forget_res h3 .forget_btn_res{
+   	    background: #0bb782;
+    border: 1px solid #35bcac;
+    color: #FFF;
+    width: 360px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+   }
+#st_forget_res h3 .forget_btn_res:hover{
+	background: #35BCAC;
+}
