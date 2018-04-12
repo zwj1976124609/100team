@@ -1,0 +1,377 @@
+*{
+				margin: 0;padding: 0;
+			}
+			body{
+				width:100%;
+				background: #f3f3f3;
+				font-family: 'Microsoft YaHei',Verdana,tahoma,Helvetica,Arial;
+			}
+			a{
+				text-decoration: none;    
+                cursor: pointer;
+			}
+			em, var, i {
+                      font-style: normal;
+            }
+            fieldset, img {
+					    border: 0;
+					    vertical-align: middle;
+					    display: inline;
+					}
+			.vit{
+				width:1200px;margin: 0 auto;
+			}
+			.top{
+				width: 100%;
+			    height: auto;
+			    margin: 0 auto;
+			    overflow: hidden;
+			}
+			.fr,.fl{
+				float: left;
+			}
+			.top-let{
+				width:900px;
+				
+			}
+			
+			.top-rit{
+				width:290px;
+				height:360px;
+				text-align: center;
+				background: #fff;
+				margin-left: 10px;
+				text-align: center;
+			}
+			.userimg{
+				width: 100px;
+			    height: 100px;
+			    margin: 50px auto 0;
+			    border-radius: 50%;
+			    overflow: hidden;
+			    border: 1px solid #dbdbdb;
+			}
+			.top-rit p{
+				font-size: 14px;
+                margin-top: 30px;
+			}
+			._ritbox .login{
+				width: 160px;
+			    height: 44px;
+			    line-height: 44px;
+			    display: block;
+			    margin: 30px auto 10px;
+			    overflow: hidden;
+			    background: #d3aa71;
+			    color: #fff;
+			    text-align: center;
+			    font-size: 14px;
+			    border-radius: 3px;
+			}
+			._ritbox i {
+			    font-size: 12px;
+			    color: #333;
+			   
+			}
+			._ritbox i a{
+				padding: 0 5px;
+                color: #00bc8d;
+			}
+			
+			
+			.vipSetup{
+				width: 1200px;
+			    height: auto;
+			    margin: 10px auto 0;
+			    overflow: hidden;
+			    background: #fff;
+			}
+			.newVip .vipSetup .title {
+							    width: 1200px;
+							    height: 60px;
+							    margin: 20px auto 0;
+			}
+			.vipSetup .vipSetupCont {
+			    width: 950px;
+			    height: 500px;
+			    background: url(../img/vipSetupCont.jpg) no-repeat center bottom;
+			    padding-left: 130px;
+			    position: relative;
+			    margin: 0 auto;
+			}
+			.vipSetup .vipSetupCont .rowDiv {
+			    width: 42px;
+			    float: left;
+			    overflow: hidden;
+			    margin-top: 140px;
+			    text-align: center;
+			    margin-right: 44px;
+			}
+			.vipSetup .vipSetupCont .column {
+			    width: 42px;
+			    height: 250px;
+			    position: relative;
+			}
+			 .vipSetup .vipSetupCont .onGun .column span {
+			    background: #d3aa71;
+			    height: 10px;
+			    width: 42px;
+			    display: block;
+			    position: absolute;
+			    bottom: 0;
+			    left: 0;
+			}
+			 .vipSetup .vipSetupCont .onGun p {
+			    color: #d3aa71;
+			    font-size: 14px; 
+                line-height: 48px;
+			}
+			.vipSetup .vipSetupCont .onGun var {
+			    background: url(../img/iocn01_on.png) no-repeat center center;
+			    width: 14px;
+			    height: 14px;
+			    display: block;
+			    margin: 0 auto;
+			}
+			.vipSetup .vipSetupCont .rowDiv i {
+			    font-size: 14px;
+			    color: #000;
+			    line-height: 40px;
+			}
+			#out .vipSetupCont .column .hon_1 {
+				    height: 15px;
+				}
+			#out .vipSetupCont .column .hon_2 {
+				    height: 25px;
+				}
+			#out .vipSetupCont .column .hon_3 {
+				    height: 40px;
+				}
+			#out .vipSetupCont .column .hon_4 {
+				    height: 60px;
+				}
+			#out .vipSetupCont .column .hon_5 {
+				    height: 75px;
+				}
+			#out .vipSetupCont .column .hon_6 {
+				    height: 100px;
+				}
+			#out .vipSetupCont .column .hon_7 {
+				    height: 135px;
+				}
+			#out .vipSetupCont .column .hon_8 {
+				    height: 170px;
+				}
+			#out .vipSetupCont .column .hon_9 {
+				    height: 215px;
+				}
+	        #out .vipSetupCont .column .hon_10 {
+				    height: 245px;
+				}
+			 .vipSetup .unit {
+				    width: 100%;
+				    height: auto;
+				    margin: 30px auto 0;
+				    overflow: hidden;
+				}
+			.vipSetup .unit p {
+				    font-size: 18px;
+				    color: #333;
+				    float: left;
+				    margin-left: 450px;
+				}
+				.vipSetup .unit p i {
+				    padding-left: 100px;
+				}
+			 .vipSetup .rule {
+				    width: 1000px;
+				    height: auto;
+				    margin: 50px auto;
+				    overflow: hidden;
+				}
+				.vipSetup .rule h3 {
+				    font-size: 18px;
+				    color: #666;
+				    font-weight: normal;
+				    margin-bottom: 20px;
+				}
+				 .vipSetup .rule p {
+				    font-size: 14px;
+				    line-height: 26px;
+				    color: #666;
+				}
+				.vipExplain {
+				    width: 1200px;
+				    height: auto;
+				    margin: 10px auto 0;
+				    overflow: hidden;
+				    background: #fff;
+				}
+				.vipExplain .title {
+				    width: 1200px;
+				    height: 60px;
+				    margin: 20px auto 0;
+				}
+				 .vipExplain .table {
+				    width: 1113px;
+				    height: auto;
+				    margin: 40px auto;
+				    overflow: hidden;
+				    border-left: 1px solid #dbdbdb;
+				    border-top: 1px solid #dbdbdb;
+				}
+				.vipExplain .table .header {
+				    width: 100px;
+				    height: auto;
+				    float: left;
+				    background: #d3aa71;
+				    text-align: center;
+				    border-right: 1px solid #dbdbdb;
+				}
+				.vipExplain .table .header .tdDiv {
+				    width: 100%;
+				    text-align: center;
+				    border-bottom: 1px solid #dbdbdb;
+				    height: 101px;
+				    line-height: 101px;
+				    height:101px; line-height:101px;
+				}
+				 .vipExplain .table .header .tdDiv p {
+				    font-size: 14px;
+				    color: #fff;
+				}
+				.vipExplain .table .grade {
+				    width: 120px;
+				    float: left;
+				    height: auto;
+				    border-right: 1px solid #dbdbdb;
+				}
+				.vipExplain .table .grade .rowDiv {
+				    height: 50px;
+				    border-bottom: 1px solid #dbdbdb;
+				    width: 100%;
+				    text-align: center;
+				    line-height: 50px;
+				}
+				 .vipExplain .table .bg {
+				    background: #d3aa71;
+				}
+				 .vipExplain .table .bg p {
+				    font-size: 14px;
+				    color: #fff;
+				}
+				.vipExplain .table .grade p {
+				    color: #333;
+				}
+				.vipExplain .table p {
+				    font-size: 12px;
+				   
+				}
+				 .vipExplain .table .composite {
+				    width: 120px;
+				    height: auto;
+				    border-bottom: 1px solid #dbdbdb;
+				    overflow: hidden;
+				}
+				.vipExplain .table .composite .tdDiv {
+				    text-align: center;
+				    overflow: hidden;
+				    float: left;
+				}
+				.vipExplain .table .listBox {
+				    float: left;
+				    overflow: hidden;
+				}
+				.vipExplain .listBox .rowDiv {
+				    width: 80px;
+				    height: auto;
+				    border-right: 1px solid #dbdbdb;
+				    float: left;
+				}
+				.vipExplain .listBox .rowDiv .tdDiv {
+				    border-bottom: 1px solid #dbdbdb;
+				    text-align: center;
+				    height: 50px;
+				    line-height: 50px;
+				}
+				 .viPrivilege {
+				    width: 1200px;
+				    height: auto;
+				    margin: 10px auto 0;
+				    overflow: hidden;
+				    background: #fff;
+				}
+				 .viPrivilege .title {
+				    width: 1200px;
+				    height: 60px;
+				    margin: 20px auto 0;
+				}
+				.viPrivilege .tabTitle {
+				    width: 1100px;
+				    height: auto;
+				    margin: 30px auto 0;
+				    overflow: hidden;
+				}
+				
+				.viPrivilege .tabTitle .tit {
+				    width: 136px;
+				    height: 42px;
+				    line-height: 42px;
+				    text-align: center;
+				    background: #fff;
+				    color: #333;
+				    cursor: pointer;
+				    float: left;
+				    border: 1px solid #dbdbdb;
+				    border-bottom: 0;
+				    margin-right: 20px;
+				    border-radius: 10px 10px 0 0;
+				}
+				 .viPrivilege .tabTitle .active{
+				 	
+				    background: #d3aa71;
+				    border: 1px solid #d3aa71;
+				    border-bottom: 0;
+				    color: #fff;
+				    width: 136px;
+				    height: 42px;
+				    line-height: 42px;
+				    text-align: center;
+				    margin-right: 20px;
+				    border-radius: 10px 10px 0 0;
+				    float: left;
+				    
+				}
+				 .viPrivilege .tabCont {
+				    width: 998px;
+				    height: 200px;
+				    border: 1px solid #dbdbdb;
+				    margin: 0 auto 60px;
+				    display: none;
+				    padding: 50px;
+				}
+				 .viPrivilege #dis{
+				    width: 998px;
+				    height: 200px;
+				    border: 1px solid #dbdbdb;
+				    margin: 0 auto 60px;
+				    display: block;
+				    padding: 50px;
+				    
+				}
+				
+				
+				
+				 .viPrivilege .tabCont p {
+				    font-size: 14px;
+				    color: #666;
+				    line-height: 32px;
+				    margin-bottom: 30px;
+				}
+				.viPrivilege .tabCont p i {
+				    font-size: 20px;
+				    font-weight: bold;
+				    padding-right: 5px;
+				    float: left;
+				    margin-bottom: 30px;
+				}

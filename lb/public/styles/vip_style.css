@@ -1,0 +1,524 @@
+	* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				width: 100%;
+				background: #f3f3f3;
+				font-size: 14px;
+				color: #666;
+				font-family: 'Microsoft YaHei', Verdana, tahoma, Helvetica, Arial;
+			}
+			
+			a {
+				text-decoration: none;
+				cursor: pointer;
+			}
+			
+			em,
+			var,
+			i {
+				font-style: normal;
+			}
+			
+			fieldset,
+			img {
+				border: 0;
+				vertical-align: middle;
+				display: inline;
+			}
+			
+			.jPlan_banner {
+				width: 100%;
+				height: 530px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: url(../img/banner1.jpg) no-repeat center top;
+			}
+			
+			.jPlan_lineW {
+				width: 100%;
+				height: 38px;
+				line-height: 38px;
+				border-bottom: 1px solid #dbdbdb;
+				background: #f4f4f4;
+				text-align: center;
+			}
+			
+			.jPlan_lineW p {
+				color: #888;
+			}
+			
+			.jPlan_lineW p a {
+				color: #416491;
+			}
+			
+			.jPlan_modular01 {
+				width: 100%;
+				height: 600px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: #fff url(../img/modular_img01.jpg) no-repeat center 70px;
+				text-align: center;
+				padding-top: 100px;
+			}
+			
+			.jPlan_schedule {
+				width: 1030px;
+				height: auto;
+				margin: 0 auto;
+				overflow: hidden;
+				padding-left: 270px;
+			}
+			
+			.jPlan_schedule .record {
+				width: 1030px;
+				height: 100px;
+				float: left;
+				position: relative;
+			}
+			
+			.jPlan_schedule .beiAn {
+				margin-top: 10px;
+			}
+			
+			.jPlan_schedule .record .speedLine {
+				width: auto;
+				height: 3px;
+				background: #ccc;
+				float: left;
+				margin: 17px 0 0 80px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			.jPlan_schedule .record .speedLine_01 {
+				width: 460px;
+			}
+			
+			.jPlan_schedule .record .hoverLine {
+				height: 3px;
+				background: #5c80ac;
+				float: left;
+			}
+			
+			.jPlan_schedule .beiAn .ic01 {
+				left: 19px;
+			}
+			
+			.jPlan_schedule .record .ic {
+				width: 140px;
+				height: 90px;
+				text-align: center;
+				position: absolute;
+				display: block;
+			}
+			
+			.jPlan_schedule .record .ic p {
+				margin-top: 50px;
+			}
+			
+			.jPlan_schedule .beiAn .ic02 {
+				left: 253px;
+			}
+			
+			.jPlan_schedule .record .ic {
+				width: 140px;
+				height: 90px;
+				text-align: center;
+				position: absolute;
+				display: block;
+				background: url(../img/conImg.png) no-repeat center 3px;
+			}
+			
+			.jPlan_schedule .beiAn .ic03 {
+				left: 469px;
+			}
+			
+			.jPlan_schedule .record .ic {
+				width: 140px;
+				height: 90px;
+				text-align: center;
+				position: absolute;
+				display: block;
+				background: url(../img/conImg.png) no-repeat center 3px;
+			}
+			
+			.jPlan_schedule .record .icHover {
+				background: url(../img/conImg_hover.png) no-repeat center 3px;
+			}
+			
+			.jPlan_schedule .bank {
+				margin-top: 60px;
+			}
+			
+			.jPlan_schedule .record {
+				width: 1030px;
+				height: 100px;
+				float: left;
+				position: relative;
+			}
+			
+			.jPlan_schedule .record .speedLine_02 {
+				width: 900px;
+			}
+			
+			.jPlan_schedule .record .speedLine {
+				height: 3px;
+				background: #ccc;
+				float: left;
+				margin: 17px 0 0 80px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			.jPlan_schedule .record .hoverLine {
+				width: 50%;
+				height: 3px;
+				background: #5c80ac;
+				float: left;
+			}
+			
+			.jPlan_schedule .bank .ic01 {
+				left: 19px;
+			}
+			
+			.jPlan_schedule .bank .ic02 {
+				left: 139px;
+			}
+			
+			.jPlan_schedule .bank .ic03 {
+				left: 269px;
+			}
+			
+			.jPlan_schedule .bank .ic04 {
+				left: 395px;
+			}
+			
+			.jPlan_schedule .bank .ic05 {
+				left: 521px;
+			}
+			
+			.jPlan_schedule .bank .ic06 {
+				left: 648px;
+			}
+			
+			.jPlan_schedule .bank .ic07 {
+				left: 778px;
+			}
+			
+			.jPlan_schedule .bank .ic08 {
+				left: 908px;
+			}
+			
+			.jPlan_schedule .icp {
+				margin-top: 52px;
+			}
+			
+			.jPlan_schedule .record .speedLine_03 {
+				width: 460px;
+			}
+			
+			.jPlan_schedule .icp .ic01 {
+				left: 19px;
+			}
+			
+			.jPlan_schedule .icp .ic02 {
+				left: 253px;
+			}
+			
+			.jPlan_schedule .icp .ic03 {
+				left: 469px;
+			}
+			
+			.jPlan_schedule .safe {
+				margin-top: 50px;
+			}
+			
+			.jPlan_schedule .record .speedLine_06 {
+				width: 820px;
+				left: 0;
+			}
+			
+			.jPlan_schedule .record .speedLine {
+				height: 3px;
+				background: #ccc;
+				float: left;
+				margin: 17px 0 0 80px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+			}
+			
+			.jPlan_schedule .safe .ic01 {
+				left: 19px;
+			}
+			
+			.jPlan_schedule .safe .ic02 {
+				left: 219px;
+			}
+			
+			.jPlan_schedule .safe .ic03 {
+				left: 419px;
+			}
+			
+			.jPlan_schedule .safe .ic04 {
+				left: 619px;
+			}
+			
+			.jPlan_schedule .safe .ic05 {
+				left: 819px;
+			}
+			
+			.jPlan_modular02 {
+				width: 100%;
+				height: 700px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: #f1f1f1 url(../img/modular_img02.jpg) no-repeat center 260px;
+			}
+			
+			.jPlan_m-topIcon {
+				width: 100%;
+				height: 40px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			
+			.jPlan_m-topIcon img {
+				width: 140px;
+				height: 40px;
+				margin: 0 auto;
+				display: block;
+			}
+			
+			.jPlan_m-head {
+				width: 100%;
+				height: 120px;
+				margin: 60px auto;
+				overflow: hidden;
+				text-align: center;
+			}
+			
+			.jPlan_m-head h2 {
+				font-size: 36px;
+				font-weight: normal;
+				color: #333;
+				margin-bottom: 20px;
+			}
+			
+			.jPlan_m-head p {
+				font-size: 16px;
+				color: #999;
+				line-height: 40px;
+			}
+			
+			.jPlan_schedule {
+				width: 1030px;
+				height: auto;
+				margin: 0 auto;
+				overflow: hidden;
+				padding-left: 270px;
+			}
+			
+			.jPlan_schedule .zxShow {
+				margin-top: 30px;
+			}
+			
+			.jPlan_schedule .record {
+				width: 1030px;
+				height: 100px;
+				float: left;
+				position: relative;
+			}
+			
+			.jPlan_schedule .record .speedLine_04 {
+				width: 680px;
+				left: 40px;
+			}
+			
+			.jPlan_schedule .record .speedLine {
+				height: 3px;
+				background: #ccc;
+				float: left;
+				margin: 17px 0 0 80px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+			}
+			
+			.jPlan_schedule .zxShow .ic01 {
+				left: 49px;
+			}
+			
+			.jPlan_schedule .zxShow .ic02 {
+				left: 284px;
+			}
+			
+			.jPlan_schedule .zxShow .ic03 {
+				left: 504px;
+			}
+			
+			.jPlan_schedule .zxShow .ic04 {
+				left: 716px;
+			}
+			
+			.jPlan_schedule .risk {
+				margin-top: 100px;
+			}
+			
+			.jPlan_schedule .record .speedLine_05 {
+				width: 670px;
+				left: 40px;
+			}
+			
+			.jPlan_schedule .risk .ic01 {
+				left: 49px;
+			}
+			
+			.jPlan_schedule .risk .ic02 {
+				left: 284px;
+			}
+			
+			.jPlan_schedule .risk .ic03 {
+				left: 504px;
+			}
+			
+			.jPlan_schedule .risk .ic04 {
+				left: 716px;
+			}
+			
+			.jPlan_modular03 {
+				width: auto;
+				height: 590px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: #fff;
+			}
+			
+			.jPlan_reveal {
+				width: 1200px;
+				height: auto;
+				overflow: hidden;
+				margin: 0 auto;
+			}
+			
+			.jPlan_reveal .conBig {
+				width: 1400px;
+				height: auto;
+				float: left;
+				overflow: hidden;
+			}
+			
+			.jPlan_reveal .rebeal {
+				width: 110px;
+				height: 88px;
+				border-radius: 5px;
+				float: left;
+				margin: 0 44px 42px 0;
+				padding-left: 78px;
+				line-height: 88px;
+			}
+			
+			.jPlan_reveal .rebealHover p {
+				color: #fff;
+			}
+			
+			.jPlan_reveal .rebeal p {
+				font-size: 16px;
+			}
+			
+			.jPlan_reveal .rebeal_m {
+				line-height: 30px;
+				padding-top: 15px;
+				height: 73px;
+			}
+			
+			.jPlan_reveal .rebeal {
+				width: 110px;
+				border: 1px solid #dbdbdb;
+				border-radius: 5px;
+				float: left;
+				margin: 0 44px 42px 0;
+				padding-left: 78px;
+				background: #eaeaea url(../img/rebealIcon02.png) no-repeat 30px;
+			}
+			
+			.jPlan_reveal .rebealHover {
+				border: 1px solid #4a72a3;
+				background: #4a72a3 url(../img/rebealIcon01.png) no-repeat 30px;
+			}
+			
+			.jPlan_reveal ._ap p {
+				color: #999;
+				font-size: 16px;
+			}
+			
+			.jPlan_modular04 .img_bg {
+				width: 1096px;
+				height: 244px;
+				margin: 0 auto;
+				display: block;
+			}
+			.jPlan_modular05 {
+			    width: auto;
+			    height: 530px;
+			    margin: 0 auto;
+			    overflow: hidden;
+			    background: #fff;
+			}
+			.jPlan_modular05 .img_bg {
+			    width: 950px;
+			    height: 160px;
+			    margin: 0 auto;
+			    display: block;
+			}
+			.jPlan_modular07 .jPlan_m-info {
+			    width: 650px;
+			    height: 20px;
+			    line-height: 20px;
+			    margin: 0 auto 40px;
+			    text-align: right;
+			}
+			.jPlan_modular07 .img_bg {
+			    width: 1100px;
+			    height: 460px;
+			    margin: 0 auto;
+			    display: block;
+			}
+			.jPlan_modular07 .jPlan_m-footWord {
+			    width: 100%;
+			    height: auto;
+			    margin: 80px auto 0;
+			    overflow: hidden;
+			    text-align: center;
+			}
+			.jPlan_modular07 .jPlan_m-footWord p {
+			    font-size: 16px;
+			    color: #999;
+			    margin-bottom: 100px;
+			}
+			.jPlan_modular06 {
+			    width: 100%;
+			    height: 350px;
+			    margin: 0 auto;
+			    overflow: hidden;
+			    background: #fff;
+			}
+			.jPlan_modular06 a.inBtn {
+			    width: 220px;
+			    height: 58px;
+			    display: block;
+			    background: #4a72a3;
+			    text-align: center;
+			    line-height: 58px;
+			    border-radius: 5px;
+			    margin: 0 auto;
+			    color: #fff;
+			    font-size: 20px;
+			}

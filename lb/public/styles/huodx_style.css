@@ -1,0 +1,234 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				width: 100%;
+				
+				font-size: 14px;
+				color: #666;
+				font-family: 'Microsoft YaHei', Verdana, tahoma, Helvetica, Arial;
+			}
+			
+			a {
+				text-decoration: none;
+				cursor: pointer;
+			}
+			
+			em,
+			var,
+			i {
+				font-style: normal;
+			}
+			
+			fieldset,
+			img {
+				border: 0;
+				vertical-align: middle;
+				display: inline;
+			}
+			#back{
+				background: #fff;
+			}
+			.springFun {
+			    width: 100%;
+			    height: auto;
+			    margin: 0 auto;
+			    overflow: hidden;
+			}
+			.springFun .modular_01 {
+			    width: 100%;
+			    height: 440px;
+			    background: url(../img/img_bg01.jpg) no-repeat center top;
+			    text-align: center;
+			    overflow: hidden;
+			}
+			.springFun .modular_01 h3 {
+			    font-size: 32px;
+			    color: #1ebe74;
+			    font-weight: normal;
+			    margin-top: 335px;
+			    padding-left: 50px;
+			}
+			.springFun .modular_01 p {
+			    font-size: 18px;
+			    color: #2cbd76;
+			    margin-top: 20px;
+			}
+			.springFun .modular_02 {
+			    width: 100%;
+			    height: 440px;
+			    margin: 0 auto;
+			    overflow: hidden;
+			    background: url(../img/img_bg02.jpg) no-repeat center top;
+			    text-align: center;
+			}
+			.springFun .modular_02 a {
+			    width: 354px;
+			    height: 103px;
+			    background: url(../img/getBtn_bg.png) no-repeat center top;
+			    display: block;
+			    margin: 90px auto 0;
+			    font-weight: bold;
+			    color: #fff;
+			    font-size: 34px;
+			    line-height: 85px;
+			}
+			.springFun .modular_02 p {
+			    font-size: 30px;
+			    color: #fff;
+			    margin-top: 50px;
+			}
+			.springFun .modular_03 {
+			    width: 1260px;
+			    height: auto;
+			    margin: 40px auto 0;
+			    overflow: hidden;
+			    position: relative;
+			    background: #fff;
+			}
+			.springFun .modular_03 .tit {
+			    width: 100%;
+			    height: auto;
+			    margin: 0 auto;
+			    text-align: center;
+			}
+			.springFun .modular_03 .tit h3 {
+			    color: #1ebe74;
+			    font-size: 30px;
+			    font-weight: normal;
+			}
+			.springFun .modular_03 .bird {
+			    width: 88px;
+			    height: 76px;
+			    display: block;
+			    position: absolute;
+			    top: 20px;
+			    right: 10px;
+			}
+			.springFun .modular_03 .prizeList {
+			    width: 1200px;
+			    height: auto;
+			    overflow: hidden;
+			    margin: 60px auto 0;
+			}
+			.springFun .modular_03 .prizeList .bidCont {
+			    width: 120%;
+			    float: left;
+			    height: auto;
+			    overflow: hidden;
+			}
+			.springFun .modular_03 .prizeList .prize {
+			    width: 270px;
+			    height: 314px;
+			    background: #b8f5e2;
+			    border: 2px solid #3fc89e;
+			    float: left;
+			    margin-left: 10px;
+			    margin-right: 13px;
+			    text-align: center;
+			    margin-bottom: 23px;
+			    border-radius: 3px;
+			    overflow: hidden;
+			}
+			.springFun .modular_03 .prizeList .prize .imgCont {
+			    width: 264px;
+			    background: #fff;
+			    margin: 3px auto 0;
+			    text-align: center;
+			    height: 246px;
+			}
+			.springFun .modular_03 .prizeList .prize .imgCont img {
+			    width: 236px;
+			    height: 170px;
+			    margin-top: 33px;
+			}
+			.springFun .modular_03 .prizeList .prize .imgCont h3 {
+				    font-size: 24px;
+				    color: #fc7527;
+				    font-weight: normal;
+				}
+			.springFun .modular_03 .prizeList .prize p {
+			    font-size: 16px;
+			    color: #181818;
+			    margin-top: 20px;
+			}
+			.springFun .modular_04 {
+			    width: 100%;
+			    height: 620px;
+			    margin: 70px auto 0;
+			    overflow: hidden;
+			    background: url(../img/img_bg03.jpg) no-repeat center top;
+			}
+			.springFun .modular_04 .rule {
+			    width: 1180px;
+			    height: auto;
+			    margin: 0 auto;
+			}
+			.springFun .modular_04 .rule h3 {
+			    font-size: 30px;
+			    color: #3fc89e;
+			    font-weight: normal;
+			    margin-bottom: 30px;
+			}
+			.springFun .modular_04 .rule p {
+			    font-size: 16px;
+			    color: #3fc89e;
+			    line-height: 34px;
+			}
+			.springFun .modular_04 .info {
+			    width: 100%;
+			    text-align: center;
+			    margin-top: 100px;
+			}
+			.springFun .modular_04 .info p {
+			    color: #0e5333;
+			    font-size: 18px;
+			    font-weight: bold;
+			}
+			.springFunPop {
+			    width: 358px;
+			    height: 332px;
+			    position: fixed;
+			    top: 50%;
+			    left: 50%;
+			    margin-left: -179px;
+			    margin-top: -166px;
+			    z-index: 1001;
+			    background: url(../img/popBg.png) no-repeat center top;
+			    display: none;
+			}
+			.springFunPop .cont {
+			    width: 100%;
+			    height: auto;
+			    margin: 0 auto;
+			    position: relative;
+			    text-align: center;
+			}
+			.springFunPop .cont h3 {
+			    font-size: 20px;
+			    color: #1ebe74;
+			    line-height: 20px;
+			    margin-top: 36px;
+			}
+			.springFunPop .cont img {
+			    width: 180px;
+			    height: 180px;
+			    margin-top: 26px;
+			}
+			.springFunPop .cont p {
+			    font-size: 16px;
+			    color: #666;
+			    line-height: 18px;
+			    margin-top: 24px;
+			}
+			.springFunPop .cont a.close {
+			    width: 37px;
+			    height: 36px;
+			    display: block;
+			    position: absolute;
+			    background: url(../img/close.png) no-repeat center top;
+			    top: -76px;
+			    right: -35px;
+			}
