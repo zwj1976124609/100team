@@ -1,0 +1,371 @@
+
+@charset 'uft-8';
+body,html, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+  margin:0;
+  padding:0;
+}
+body{
+    font-size: 14px;
+    font-family: 'Microsoft YaHei',Verdana,tahoma,Helvetica,Arial;
+    color: #666;
+}
+  em, i {
+  font-style: normal;
+}
+  li{
+    list-style: none;
+  }
+  a{
+     outline: none;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+  }
+img{border:0; display:block}
+.chc-a{
+    background: url('https://www.pp100.com/static/public/images/activity/mayevent/banner11.jpg')no-repeat center top;
+    width:100%;
+    text-align: center;
+    height: 650px;
+}
+.chc-a a{
+    width: 273px;
+    height: 78px;
+    line-height: 70px;
+    display:inline-block;
+    margin: 440px auto 0;
+    text-align: center;
+    background: url('https://www.pp100.com/static/public/images/activity/mayevent/invite.png') no-repeat center top;
+    font-size: 24px;
+    color: #a7230c;
+    font-weight: bold;
+}
+.chc-left{
+    position: fixed;
+    bottom: 90px;
+    left: 0;
+    z-index: 999;
+}
+.chc-left p{
+        position: absolute;
+    top: 10px;
+    right: 2px;
+    cursor: pointer;
+}
+.chc-right{
+        position: fixed;
+        bottom: 25px;
+        right: 0;
+        z-index: 999;
+}
+
+.chc-right a{
+    display: block;
+    width: 64px;
+    height: 24px;
+    margin-bottom: 1px;
+    padding-top: 52px;
+    font-size: 12px;
+    text-align: center;
+    color: #23425f;
+}
+.chc-right1{
+background: url('https://www.pp100.com/static/public/images/index/wx.png') center 8px no-repeat #cdd5d6;
+position:relative;
+}
+.chc-right11{
+    display:none;
+        position: absolute;
+        top: 0;
+        left: -165px;
+        width: 155px;
+        height: 332px;
+}
+.chc-right1:hover .chc-right11{
+    display:block
+}
+.chc-right2{
+background: url('https://www.pp100.com/static/public/images/index/kf.png') center 8px no-repeat #cdd5d6;
+}
+.chc-right3{
+background: url('https://www.pp100.com/static/public/images/index/bz.png') center 8px no-repeat #cdd5d6;
+}
+.chc-right4{
+background: url('https://www.pp100.com/static/public/images/index/js.png') center 8px no-repeat #cdd5d6;
+}
+.chc-right5{
+background: url('https://www.pp100.com/static/public/images/index/fh.png') center 8px no-repeat #cdd5d6;
+}
+.chc-right div:nth-of-type(1) :hover {
+    background: url('https://www.pp100.com/static/public/images/index/wx.png') center 8px no-repeat #0bb782
+}
+.chc-right div:nth-of-type(2) :hover {
+    background: url('https://www.pp100.com/static/public/images/index/kf.png') center 8px no-repeat #0bb782
+}
+.chc-right div:nth-of-type(3) :hover {
+    background: url('https://www.pp100.com/static/public/images/index/bz.png') center 8px no-repeat #0bb782
+}
+.chc-right div:nth-of-type(4) :hover {
+    background: url('https://www.pp100.com/static/public/images/index/js.png') center 8px no-repeat #0bb782
+}
+.chc-right div:nth-of-type(5) :hover {
+    background: url('https://www.pp100.com/static/public/images/index/fh.png') center 8px no-repeat #0bb782
+}
+.chc-b{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 40px auto 0;
+}
+.chc-b>div{
+    margin:0 auto;
+        width: 1200px;
+}
+.chc-b_head p{
+    text-align:center;
+    font-size: 40px;
+    color: #fa4d55;
+     margin-bottom: 50px;
+}
+.chc-b_head b{
+    padding-left: 30px;
+}
+.chc-b_milld{
+        width: 1200px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    height: 535px;
+    background: url('https://www.pp100.com/static/public/images/activity/mayevent/gift_bg01.png')no-repeat center top;
+    position:relative;
+}
+.chc-b_milld1{
+       width: 1040px;
+    height: auto;
+    margin: 200px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.chc-b_milld1 h3{
+    font-weight: normal;
+    font-size: 20px;
+    color: #666;
+    display: block;
+    margin: 0 auto 50px;
+    width: 100%;
+}
+.chc-b_milld1 p{
+        font-size: 14px;
+    width: 100%;
+    text-align: left;
+}
+.chc-b_milld2{
+        margin: 30px 0px 0px 78px;
+}
+.chc-b_milld2>div{
+    width: 198px;
+    height: 121px;
+    float: left;
+    background: url('https://www.pp100.com/static/public/images/activity/mayevent/gift01.png') no-repeat center top;
+    margin: 0 12px 15px 0;
+}
+.chc-b_milld2 span{
+    width: 154px;
+    height: auto;
+    text-align: center;
+    float: left;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.chc-b_milld2 i{
+        font-size: 50px;
+    font-weight: bold;
+}
+.chc-b_milld2 p{
+    width: 154px;
+    height: auto;
+    text-align: center;
+    float: left;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+.chc-c img{
+    margin: 0 auto;
+}
+
+.chc-shuju-a{
+    padding: 0px 70px;
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.chc-shuju-a h1{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    float: left;
+    line-height:55px;
+}
+.chc-shuju-a span{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff5a5a;
+    font-family: helvetica, arial, 'Microsoft YaHei';
+    margin-left: 2px;
+}
+.chc-shuju-a a{
+        height: 55px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 650px;
+    display: inline-block;
+    line-height: 55px;
+    color: #00bc8d;
+}
+.chc-shuju-b{
+        border-top: 3px solid #e7eaec;
+    background: #fff;
+    margin: 0 auto;
+    width: 88%;
+}
+.chc-shuju-b h2{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #e7eaec;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.chc-shumian{
+    width:100%;
+    background:#D9D9D9;
+    padding-top: 10px;
+}
+.chc-shumian>div{
+    margin:0 auto;
+    width:88%;
+    background:#fff;
+    margin-bottom:15px
+}
+.chc-shuju-b h2 p{
+    float: right;
+    display: inline;
+    font-size: 12px;
+    margin-right: 30px
+}
+.chc-shuju-b ul{
+        padding: 20px 25px 30px;
+            height: 44px;
+}
+.chc-shuju-b li{
+        float: left;
+    width: 25%;
+}
+.chc-shuju-b  .biao{
+font-size: 11px;
+}
+.chc-shuju-b  .biao1{
+    margin-top: 10px
+}
+ .chc-shuju-b  .biao1   i {
+        font-size: 21px;
+    color: #ff5a5a;
+}
+ .chc-shuju-b  .biao1 span {
+       font-size: 21px;
+    color: #ff5a5a;
+ }
+  .chc-shuju-b  .biao1 b{
+       font-weight:500
+ }
+ .chc-shumian h2{
+        font-size: 15px;
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px solid #e7eaec;
+    padding-left: 25px;
+ }
+ .chc-shuju-c1{
+    padding:20px 0
+ }
+
+  .chc-shuju-c1 a{
+        text-align: center;
+        height: 30px;
+        margin-left: 60px;
+        display: inline-block;
+        width: 50px;
+        border: 1px solid #B5B4B4;
+        line-height: 30px;
+    }
+   .chc-shuju-c1 a:nth-of-type(1) {
+    margin-left: 20px;
+    margin-right: 444px;
+    width: 110px;
+    }
+    .chc-shuju-c1 a:hover{
+        background:#C7C6C6;
+        color: #00bc8d;
+    }
+    .clear{
+        clear:both;
+    }
+    .chc-shuju-e1{
+         padding: 20px 30px;
+    }
+.chc-shuju-e1 li{
+    float:left;
+    width: 33%;
+}
+.chc-shuju-e1 li p{
+    font-size: 12px;
+}
+.chc-shuju-e1 li span{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 90, 90);
+    font-family: helvetica, arial, "Microsoft YaHei";
+    margin-left: 2px;
+}
+.chc-shuju-e1 li a{
+    text-align: center;
+        height: 30px;
+        margin-left: 35px;
+        display: inline-block;
+        width: 50px;
+        border: 1px solid #B5B4B4;
+        line-height: 30px;
+}
+.chc-shuju-e1 li a:hover{
+        background:#C7C6C6;
+        color: #00bc8d;
+    }
+.chc-shuju-e2{
+    width:100%
+}
+.chc-shuju-e2 li{
+    width:50%;
+    float:left;
+    margin-top:30px;
+}
+.chc-shuju-f li{
+    list-style: none;
+    float: left;
+    width: 28%;
+    font-size: 13px;
+    margin-left: 36px;
+    height: 56px;
+    line-height: 56px;
+}
+.chc-shuju-f li span{
+    color: #ff5a5a;
+    font-size:22px
+
+}
