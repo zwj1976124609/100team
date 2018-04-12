@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.bzzx{
+	background: #f3f3f3;
+	padding: 15px 40px 100px;
+	overflow: hidden;
+}
+/*--------------------------------------------------- .bzzx_left*/
+.bzzx .bzzx_left{
+	width: 206px;
+    margin: 0 10px 10px 0;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+}
+.bzzx .bzzx_left span{
+	font-size: 16px;
+    color: #666;
+    line-height: 54px;
+}
+.bzzx .bzzx_left .bang{
+	width: 100%;
+    height: 58px;
+    background: #0bb782;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+.bzzx .bzzx_left p{
+	line-height: 26px;
+    color: #FFF;
+    font-size: 18px;
+}
+.bzzx .bzzx_left .subN{
+	width: 206px;
+    height: 54px;
+    background: #fff;
+    display: block;
+    border-bottom: 1px solid #f3f3f3;
+    cursor: pointer;
+    text-align: center;
+    border-left: 5px solid #fff;
+    position: relative;
+}
+.bzzx .bzzx_left .subN:hover{
+	width: 206px;
+    height: 54px;
+    border-left: 5px solid #0bb782;
+    display: block;
+}
+.bzzx .bzzx_left li{
+	width: 206px;
+    height: 40px;
+    border-bottom: 1px dashed #dbdbdb;
+    margin: auto;
+    position: relative;
+}
+.bzzx .bzzx_left li p{
+    width: 206px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    background: #f9f9f9;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+.bzzx .bzzx_left li p:hover{
+    width: 206px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    background: rgb(251, 240, 221);
+}
+/*--------------------------------------------------------- bzzx_right*/
+#hezi{
+	overflow: hidden;
+}
+.bzzx .bzzx_right{
+	width: 910px;
+	min-height: 325px;
+    padding: 70px 0 0 54px;
+    background: #FFF;
+    float:left;
+    display: none;
+}
+.bzzx .bzzx_right p{
+	margin-bottom: 20px;
+}
+.bzzx .bzzx_right span{
+	font-size: 18px;
+    color: #666;
+    padding-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.bzzx .bzzx_right .detail{
+    color: #333;
+    width: 815px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 25px 0 35px;
+    background-color: #EEEEEE;
+    display: none;
+}
+.bzzx .bzzx_right .detail h4{
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    font-weight: normal;
+}
