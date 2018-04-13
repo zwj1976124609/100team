@@ -1,0 +1,274 @@
+	*{margin:0;padding:0}
+			li{list-style:none}
+			a{text-decoration: none;}
+			
+			.new_help_content {
+					    width: 1100px;
+					    height: auto;
+					    margin: 30px auto;
+					    padding: 25px 50px 55px;
+					    background-color: #fff;
+					    color: #000;
+					    }
+		  body, button, input, select, textarea {
+			    font-size: 14px;
+			    font-family: 'Microsoft YaHei', Verdana, tahoma, Helvetica, Arial;
+			    color: #666;
+         }
+      .new_help_content {
+		    width: 1100px;
+		    height: auto;
+		    margin: 30px auto;
+		    padding: 25px 50px 55px;
+		    background-color: #fff;
+		    color: #000;
+		}
+		.new_help_content h1 {
+			    margin: 0 auto;
+			    font-size: 24px;
+			    border-bottom: 2px solid #dbdbdb;
+			    font-weight: 500;
+			}
+			.new_help_content h1 span {
+			    display: inline-block;
+			    padding: 10px 0 20px;
+			    height: 24px;
+			    line-height: 24px;
+			    margin-bottom: -2px;
+			}
+		  .new_help_content	h2 {
+			    display: block;
+			    font-size: 1.5em;
+			    -webkit-margin-before: 0.83em;
+			    -webkit-margin-after: 0.83em;
+			    -webkit-margin-start: 0px;
+			    -webkit-margin-end: 0px;
+			    font-weight: bold;
+			}
+			.new_guideL, .new_guideR {
+			    float: left;
+			    width: 500px;
+			    margin: 35px 0;
+			}
+			.new_guideL h2, .new_guideR h2 {
+				    line-height: 60px;
+				}
+			.new_guideL h2, .new_guideL div, .new_guideL span, .new_guideR h2, .new_guideR div, .new_guideR span {
+			    float: left;
+			    height: 70px;
+			    margin-right: 35px;
+			}
+			.new_help_content h2 {
+			    font-size: 20px;
+			    font-weight: 500;
+			}
+			.new_guideL img, .new_guideR img {
+			    display: block;
+			    width: 43px;
+			    height: 43px;
+			}
+			.new_guideL p, .new_guideR p {
+			    text-align: center;
+			    height: 27px;
+			    line-height: 27px;
+			    font-size: 18px;
+			}
+			.clear {
+			    clear: both;
+			}
+			.new_guideL span {
+			    font-size: 30px;
+			    color: #0bb782;
+			    line-height: 50px;
+			    float: left;
+			    height: 70px;
+			    margin-right: 35px;
+			}
+			.new_guideR span {
+			    font-size: 30px;
+			    color: #4e2488;
+			    line-height: 50px;
+			    float: left;
+			    height: 70px;
+			    margin-right: 35px;
+			}
+			.new_service ul li {
+			    float: left;
+			    margin-top: 35px;
+			    width: 250px;
+			}
+			.new_service a {
+			    display: block;
+			    width: 110px;
+			    height: 54px;
+			    margin: 0 auto;
+			    padding-top: 96px;
+			    text-align: center;
+			    color: #000;
+			}
+			.new_service a p {
+			    height: 54px;
+			    line-height: 54px;
+			}
+			.new_service ul li {
+			    float: left;
+			    margin-top: 35px;
+			    width: 250px;
+			}
+			.new_service_iocn1 {
+			    background: url(../img/new_service_iocn01.png) center 0 no-repeat;
+			}
+			.new_service_iocn2 {
+			    background: url(../img/new_service_iocn02.png) center 0 no-repeat;
+			}
+			.new_service_iocn4 {
+			    background: url(../img/new_service_iocn04.png) center 0 no-repeat;
+			}
+			.new_service_iocn5 {
+			    background: url(../img/new_service_iocn05.png) center 0 no-repeat;
+			}
+			.new_service_iocn6 {
+			    background: url(../img/new_service_iocn06.png) center 0 no-repeat;
+			}
+			.new_service_iocn7 {
+			    background: url(../img/new_service_iocn07.png) center 0 no-repeat;
+			}
+			a {
+			    text-decoration: none;
+			    color: #666;
+			    cursor: pointer;
+			    outline: none;
+			}
+			.new_service, .new_questions {
+			    margin-top: 45px;
+			}
+			.new_questions a:hover{
+				color:greenyellow;
+			}
+			.new_help_content h1 span {
+			    display: inline-block;
+			    padding: 10px 0 20px;
+			    height: 24px;
+			    line-height: 24px;
+			    margin-bottom: -2px;
+			}
+			.new_questionsDiv_left {
+			    float: left;
+			    width: 133px;
+			    padding: 20px 0;
+			    margin-left: 15px;
+			    margin-right: 30px !important;
+			}
+			.new_questionsDiv_right {
+			    width: 300px;
+			    float: left;
+    	    	 padding: 20px 0; 
+			}
+			.new_questionsDiv_left, .new_questionsDiv_right {
+			    float: left;                              
+			    padding: 20px 0;
+			}
+			.new_questionsDiv {
+			    float: left;
+			    width: 533px;
+			    height: 200px;
+			    margin-top: 30px;
+			    margin-right: 34px;
+			    border: 1px solid #dbdbdb;
+			    box-sizing: border-box;
+			}
+			.new_questionsDiv_right ul li {
+			    width: 150px;
+			    float: left;
+			    height: 40px;
+			    line-height: 40px;
+			    font-size: 16px;
+			}        
+			.new_questionsDiv_left p {
+			    height: 43px;
+			    line-height: 43px;
+			    text-align: center;
+			    font-size: 20px;
+			}   
+			body {
+			    background: #f3f3f3;
+			    width: 100%;
+			    min-width: 1280px;
+			}  
+			.down_app_box {
+			    position: fixed;
+			    bottom: 90px;
+			    left: 0;
+			    z-index: 999;
+			}    
+			.down_app_box a {
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    font-size: 18px;
+			}    
+			 img {
+			    border: 0;
+			    vertical-align: middle;
+			    display: inline;
+			}    
+			.x_suspendList {
+			    position: fixed;
+			    bottom: 25px;
+			    right: 0;
+			    z-index: 999;
+			}             
+			.wx_box {
+			    display: none;
+			    position: absolute;
+			    top: 0;
+			    left: -165px;
+			    width: 155px;
+			    height: 332px;
+			}      
+			.wx_btn:hover .wx_box {
+			    display: block;
+			}    
+			.x_suspendList .wx_btn {
+			    background: url(piblic/img/wx.png) center 8px no-repeat #cdd5d6;
+			}       
+			
+			.x_suspendList div:hover {
+			    background-color: #0bb782;
+			}
+			.x_suspendList div:hover a {
+			    color: #fff;
+			}
+			.x_suspendList a {
+			    display: block;
+			    width: 64px;
+			    height: 24px;
+			    margin-bottom: 1px;
+			    padding-top: 52px;
+			    font-size: 12px;
+			    text-align: center;
+			    color: #23425f;
+			}
+			.er {
+			    color: #00bc8d;
+			}
+			a {
+			    text-decoration: none;
+			    color: #666;
+			    cursor: pointer;
+			    outline: none;
+			}   
+			.x_suspendList .kf_btn {
+			    background: url(piblic/img/kf.png) center 8px no-repeat #cdd5d6;
+			}  
+			.x_suspendList .bz_btn {
+			    background: url(piblic/img/bz.png) center 8px no-repeat #cdd5d6;
+			}      
+			.x_suspendList .js_btn {
+			    background: url(piblic/img/js.png) center 8px no-repeat #cdd5d6;
+			}     
+			.x_suspendList .fh_btn {
+			    background: url(piblic/img/fh.png) center 8px no-repeat #cdd5d6;
+			}        
+			
+            
